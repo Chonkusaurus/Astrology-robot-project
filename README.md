@@ -87,6 +87,28 @@ If that doesn't work try it with the following:
 ```
 python3 -m pip install numpy pandas matplotlib skyfield geopy tzfpy pytz
 ```
+### Step 5: Check if everything works and start developing!
+
+I've included a [main.py](main.py) file that contains code that you can use to test if eveything is installed and setup correctly.
+
+>[!IMPORTANT]
+> You'll need to have the python extension installed and have the python script open for the run button to appear. You can learn about installing the python extension [here](https://youtu.be/ZBGzx7-KjSM?t=18)
+
+Before running the script, make sure you have the correct interpreter selected, otherwise you'll get a bunch of errors.
+Since we have installed all our libraries in the `astro_proj` environment, we need to select that to run our script as well.
+
+To do this, press `Ctrl + shift + p` for the command palette.
+Within the command palette, enter `Python: Select Interpreter`.
+From the list, lookout for the interppreter with the virtual environment in brackets, that's the interpreter you need to select.
+
+In my case, it looks something list this.
+![interpreter_selection](./images/interpreter_selection.png)
+
+You can run the python script by entering the command `python main.py` or `python3 main.py` in the terminal. 
+
+You can also run it using the run button ![run_button](./images/run_python_file.png) located in the top right corner.
+
+If everything works well, feel free to edit and experiment with the code until you understand everything.
 
 ## Syncing changes to local repository
 
