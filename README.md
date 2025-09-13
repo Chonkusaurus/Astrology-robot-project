@@ -70,7 +70,7 @@ The libraries used are the following:
 - [Skyfield](https://rhodesmill.org/skyfield/)
 - Datetime (This comes preinstalled with python, we don't need to install it seperately)
 - [Geopy](https://geopy.readthedocs.io/en/stable/)
-- [Tzwhere](https://pypi.org/project/tzwhere/)
+- [tzfpy](https://pypi.org/project/tzfpy/)
 - [Pytz](https://pypi.org/project/pytz/)
 
 We will be using the python's package installer called [pip](https://packaging.python.org/en/latest/tutorials/installing-packages/) to install packages / libraries.
@@ -80,12 +80,12 @@ You can use the following command to do so.
 > Make sure you are entering this command with your virtual environemnt active!
 
 ```
-python -m pip install numpy matplotlib skyfield geopy tzwhere pytz
+python -m pip install numpy pandas matplotlib skyfield geopy tzfpy pytz
 ```
 
 If that doesn't work try it with the following:
 ```
-python3 -m pip install numpy matplotlib skyfield geopy tzwhere pytz
+python3 -m pip install numpy pandas matplotlib skyfield geopy tzfpy pytz
 ```
 
 ## Syncing changes to local repository
