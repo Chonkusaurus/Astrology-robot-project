@@ -86,3 +86,41 @@ If that doesn't work try it with the following:
 ```
 python3 -m pip install numpy matplotlib skyfield geopy tzwhere pytz
 ```
+
+## Syncing changes to local repository
+
+Anytime changes have been made to the remote repository, you can use this method to update those changes into your local repository.
+
+This is assuming you have completed the [project setup](#project-setup) shown above.
+
+### Select source control in vscode
+
+This is located on the left as show in the image below.
+
+![source_contol_location](./images/source_control_location.png)
+
+The icon for source contol looks like this: ![source_control_icon](./images/source_control_icon.png). Ignore the number on it, that just means its tracking the changes made to your repository. More about this will be covered later.
+
+### Inside source control
+
+Once you have selected source control, it would look something like this. 
+
+![inside_source_control](./images/inside_source_control.png)
+
+If you hover your mouse over the `CHANGES` menu, you should see these three bots appear which sould say `more actions`.
+
+![three_dots_more_actions](./images/three_dots_more_action.png)
+
+If you click on it, you'll get the following options:
+
+![more_actions_opened](./images/more_actions_opened.png)
+
+In this new pop-up, we are interested in the `Pull` command.
+Go ahead and click on `Pull`.
+
+![selecting_pull_more_actions](./images/selecting_pull_more_actions.png)
+
+This will "pull" the changes from the github repository and merge it with the local repository, which will update your local repository. 
+
+As a result changes applied in the remote repository (your github repository) will be applied to the local clone/copy of your project(the copy of the project in your laptop).
+
