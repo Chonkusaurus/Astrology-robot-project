@@ -58,3 +58,31 @@ Don't worry if that doesn't happen as a pop-up will appear on the bottom right c
 #### Deactivating your virtual environment
 If for some reason you would like to deactivate your environment,
 simply enter `conda deactivate` in your terminal.
+
+### Step 4: Installing dependencies
+
+Since we are trying to replicate [this tutorial](https://viyaleta.medium.com/how-to-make-a-sky-map-in-python-a362bf722bb2), we will need to install the necessary libraries for it.
+
+The libraries used are the following:
+- [Numpy](https://numpy.org/)
+- [Matplotlib](https://matplotlib.org/)
+- [Skyfield](https://rhodesmill.org/skyfield/)
+- Datetime (This comes preinstalled with python, we don't need to install it seperately)
+- [Geopy](https://geopy.readthedocs.io/en/stable/)
+- [Tzwhere](https://pypi.org/project/tzwhere/)
+- [Pytz](https://pypi.org/project/pytz/)
+
+We will be using the python's package installer called [pip](https://packaging.python.org/en/latest/tutorials/installing-packages/) to install packages / libraries.
+
+You can use the following command to do so.
+> [!IMPORTANT]  
+> Makesure you are entering this command with your virtual environemnt active!
+
+```
+python -m pip install numpy matplotlib skyfield geopy tzwhere pytz
+```
+
+If that doesn't work try it with the following:
+```
+python3 -m pip install numpy matplotlib skyfield geopy tzwhere pytz
+```
