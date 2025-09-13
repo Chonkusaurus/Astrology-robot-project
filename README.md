@@ -76,7 +76,7 @@ We will be using the python's package installer called [pip](https://packaging.p
 
 You can use the following command to do so.
 > [!IMPORTANT]  
-> Makesure you are entering this command with your virtual environemnt active!
+> Make sure you are entering this command with your virtual environemnt active!
 
 ```
 python -m pip install numpy matplotlib skyfield geopy tzwhere pytz
