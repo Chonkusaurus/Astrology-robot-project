@@ -65,6 +65,7 @@ Since we are trying to replicate [this tutorial](https://viyaleta.medium.com/how
 
 The libraries used are the following:
 - [Numpy](https://numpy.org/)
+- [Pandas](https://pandas.pydata.org/docs/getting_started/install.html)
 - [Matplotlib](https://matplotlib.org/)
 - [Skyfield](https://rhodesmill.org/skyfield/)
 - Datetime (This comes preinstalled with python, we don't need to install it seperately)
